@@ -1,0 +1,55 @@
+html{
+
+    background-color:  rgb(116, 21, 21);
+    font-family: sans-serif;
+    color: blanchedalmond;
+    
+}
+
+h1{
+    color:orangered;
+    font-family:cursive;
+}
+.texto-azul{
+    color:white;
+}
+
+h2{
+    text-decoration: underline;
+    font-family:cursive;
+    color:orangered;
+}
+a{
+    color:chocolate;
+}
+#Segundo-titulo{
+    text-decoration: none;
+}
+#Terceiro-titulo{
+    text-decoration: none;
+}
+.sobre{
+    color:orangered ;
+    text-align: center;
+    letter-spacing: 1rem;
+}
+
+.fonteParagrafo{
+font-variant: all-petite-caps;
+text-indent: 1rem;
+
+}
+
+#image{
+
+    transform: scaleX(-1);
+}
+
+.identacao{
+    text-indent: 0rem;
+}
+
+.import{
+    font-style: italic;
+    font-weight: bold;
+}

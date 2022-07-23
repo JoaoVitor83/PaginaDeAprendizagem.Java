@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>olá mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Olá mundo</h1>
+    </header>
+
+    <h2>Sout</h2>
+    <p>
+        Introduzindo os comandos básicos em java, podemos destacar o primeiro a ser utilizado por todos os dev's,
+        o System.out.println ou melhor dizendo, o Sout(Usado como atalho no NetBeans, como o Sysout para o eclipse)
+        pode ser utilizado para "printar" informações, varrer arrays e listas, fazer cálculos e converter valores.
+    </p>
+    <picture>
+        <source srcset="imagens/Sout.png" type="Sout/png" />
+        <img src="imagens/Sout.png" width="400" height="200" alt="System.out.println(ola mundo)" />
+    </picture>
+    <p>
+        Note que no exemplo acima, temos um <a href="metodos.html">método</a> público.
+        Esse método é OBRIGATÓRIO para executar o
+        programa, onde o mesmo também é estatico, sendo
+        o Main da nossa aplicação.
+    </p>
+    <ul>
+        <li>Main ---- É um método associado à classe e não
+            a um objeto específico da classe -- assim, ele é definido como um método estático.
+            Adicionalmente, deve ser um método público para permitir sua execução a partir da máquina virtual Java.
+        </li>
+
+        <li>Static ---- serve para referenciar todos aqueles atributos/métodos de classe, ou seja, que podem ser
+            acessados diretamente da definição da classe,
+            sem precisar instanciar nenhum objeto. Você não precisa instanciar um objeto pra acessar algum método dela.
+        </li>
+
+        <li>void ---- Essa "palavra" específica que aquele método não deve ter um retorno </li>
+
+        <li>Public ---- É um dos<a href="Modificadores.html"> modificadores de acesso</a> que possiblita o acesso do
+            método em qualquer classe ou pacote do seu programa</li>
+    </ul>
+    <h2>JOptionPane</h2>
+    <p>
+        O JOptionPane segue a mesma linha de raciocínio do Sout, porém ele faz
+        parte de uma biblioteca gráfica do java, o <a href="swing.html">SWING</a>, onde
+        podemos fazer de comandos básicos até avançados de uma maneira visual, tal como fique mais
+        agradável para testes do desenvolvedor, ou até mesmo para um cliente no teste de um
+        produto final.
+    </p>
+    <picture>
+        <source srcset="imagens/JOPTION.png" type="JOPTION/png" />
+        <img src="imagens/JOPTION.png" width="400" height="200" alt="JOptionPane" />
+    </picture>
+    <p>
+        Ele também pode ser usado para cálculos, organizar os textos, mostrar listas
+        e coleções, além de você poder, (com uma configuração mais profunda), mudar o seu tamanho,
+        borda, forma e estilo,
+        Aqui vai um exemplo simples de concatenação:
+    </p>
+    <h4>JOptionPane.showMessageDialog(null, "um + um = "+ 1+1);</h4>
+    <picture>
+        <source srcset="imagens/Painel.png" type="Painel/png" />
+        <img src="imagens/Painel.png" width="200" height="100" alt="Caixa de saída pra informação" />
+    </picture>
+    <p>
+        Pode-se ver que aconteceu uma coisa muito curiosa, os números envolvidos
+        nessa continha básica, não somaram e sim se juntaram.
+        Na aula sobre <a href="Operadores.html"> Operadores aritiméticos</a>, iremos ver mais sobre o ocorrido
+        e os vários cálculos que podemos fazer com os mesmos.
+    </p>
+    <br />
+    <a href="https://youtu.be/sXS6Y0v-mTM" target="_blank">VideoAula</a>
+    <span>
+        ----- Explicação do conteúdo
+    </span>
+    <footer>
+        <br/>
+        &copf; 2022 João Vitor Machado Emboaba
+    </footer>
+</body>
+
+</html>

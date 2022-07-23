@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+    <header>
+        <h1>Formulário para sugestões</h1>
+    </header>
+        <form method="GET">
+            <input type="text" name="nome" placeholder="Nome" /><br />
+            <br /><input type="email" name="email" placeholder="e-mail" /><br />
+            <br /><input type="tel" name="telefone" placeholder="telefone (xx) xxxx-xxxx" /><br />
+            <br /><input list="cidade"><br />
+            <br /><datalist id="cidade"><br />
+                <option value="">Selecione a sua cidade</option>
+                <option value="Blumenau"></option>
+                <option value="Florianópolis"></option>
+                <option value="Joinville"></option>
+                <option value="Pomerode"></option>
+                <option value="Gaspar"></option>
+                <option value="Brusque"></option>
+            </datalist>
+            <br /><textarea cols=60 rows=10 placeholder="Escreva a sua sugestão, critíca ou elogio"></textarea><br />
+            <br /><button type="submit" name="button">Enviar formulário</button>
+            <span><button type="reset" name="button">Limpar</button></span>
+        </form>
+    </section>
+</body>
+
+</html>
