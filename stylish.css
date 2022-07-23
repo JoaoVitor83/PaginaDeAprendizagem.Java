@@ -7,7 +7,7 @@ html{
 }
 
 h1{
-    color:orangered;
+    color:blanchedalmond;
     font-family:cursive;
 }
 .texto-azul{
@@ -17,10 +17,10 @@ h1{
 h2{
     text-decoration: underline;
     font-family:cursive;
-    color:orangered;
+    color:blanchedalmond;
 }
 a{
-    color:chocolate;
+    color:blanchedalmond;
 }
 #Segundo-titulo{
     text-decoration: none;
@@ -29,7 +29,7 @@ a{
     text-decoration: none;
 }
 .sobre{
-    color:orangered ;
+    color:blanchedalmond;
     text-align: center;
     letter-spacing: 1rem;
 }
@@ -53,3 +53,4 @@ text-indent: 1rem;
     font-style: italic;
     font-weight: bold;
 }
+
