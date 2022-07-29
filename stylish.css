@@ -2,25 +2,108 @@ html{
 
     background-color:  rgb(116, 21, 21);
     font-family: sans-serif;
+    color:  rgb(116, 21, 21);      
+}
+
+#rodape{
+
+    /* color: blanchedalmond; */
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+
+.rodape{
+
     color: blanchedalmond;
+}
+
+.espacamento{
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.margem{
+
+    padding-left: 0.5rem;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
     
 }
 
+.BordaSuperior {
+
+    background: blanchedalmond;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.cabecalho{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-right: 60rem;
+
+}
+
+.Linha{
+
+    border: 0;
+	border-top: 2px solid rgb(116, 21, 21);
+    
+}
+
+.cabecalho-imagem{
+
+    height: 72px;
+    padding-right: 5rem;
+}
+
+.cabecalho-menu{
+
+    display: flex;
+    gap: 230px;
+}
+
+.cabecalho-menu-item{
+
+    font-family: cursive, sans-serif;
+    color: rgb(116, 21, 21);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.cabecalho-menu-item:hover{
+
+    text-decoration: underline;
+    color: rgb(151, 25, 25);
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+
+
 h1{
-    color:blanchedalmond;
+    color: rgb(116, 21, 21);
     font-family:cursive;
 }
 .texto-azul{
-    color:white;
+    color: rgb(116, 21, 21);
 }
 
 h2{
     text-decoration: underline;
     font-family:cursive;
-    color:blanchedalmond;
+    color: rgb(100, 37, 37);
 }
 a{
-    color:blanchedalmond;
+    color: rgb(116, 21, 21);
 }
 #Segundo-titulo{
     text-decoration: none;
@@ -29,7 +112,7 @@ a{
     text-decoration: none;
 }
 .sobre{
-    color:blanchedalmond;
+    color: rgb(116, 21, 21);
     text-align: center;
     letter-spacing: 1rem;
 }
@@ -54,3 +137,36 @@ text-indent: 1rem;
     font-weight: bold;
 }
 
+#roda{
+
+    padding-top: 0.5rem;
+}
+
+.Google{
+
+    background-color: blanchedalmond;
+    color: rgb(116, 21, 21);
+}
+
+.TituloGoogle{
+
+    text-align: center;
+    margin-top: 20%;
+    letter-spacing: 0.5rem;
+}
+
+.Barra{
+
+    text-align: center;
+}
+
+#DUKE{
+
+    height: 20vh;
+    width: 60vw;
+    width: 20rem;
+    height: 20rem;
+    margin-right: 10rem;
+    margin-bottom: 10px;
+    transform: scaleX(-1);
+}

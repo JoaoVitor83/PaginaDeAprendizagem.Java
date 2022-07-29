@@ -1,12 +1,18 @@
+
 body {
     margin: 0;
     overflow-x: hidden;
     overflow-y: scroll;
 }
 
+.margem{
+
+    padding-left: 1rem;
+}
+
 .BordaSuperior {
 
-    background: blanchedalmond;
+    background: rgb(255, 235, 205);
     padding-top: 1rem;
 }
 
@@ -38,6 +44,7 @@ body {
     font-family: cursive, sans-serif;
     color: rgb(116, 21, 21);
     font-size: 1.5rem;
+    text-decoration: none;
 }
 
 .cabecalho-menu-item:hover{
@@ -57,7 +64,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 1rem;
+    border-width: thin;
 }
 
 .Esquerda-login {
