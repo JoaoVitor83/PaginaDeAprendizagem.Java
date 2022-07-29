@@ -1,1 +1,1 @@
-*Obs* - Página em HTML que falta a implementação da parte visual com CSS e seus eventos com JS, os quais ainda serão implementados e melhorados
+*Obs* - Página em HTML e CSS que vem sendo atualizada diariamente com conteúdos básicos e intermediários de Java
